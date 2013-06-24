@@ -122,6 +122,7 @@
 //            if (typeof DiscoveryModule !== 'undefined') typeMapCompatible['http://webinos.org/manager/discovery/bluetooth'] = DiscoveryModule;
             if (typeof oAuthModule !== 'undefined') typeMapCompatible['http://webinos.org/mwc/oauth'] = oAuthModule;
             if (typeof PolicyManagementModule !== 'undefined') typeMapCompatible['http://webinos.org/core/policymanagement'] = PolicyManagementModule;
+            if (typeof HelloWorldModule !== 'undefined') typeMap['http://botsikas.blogspot.com/helloworld'] = HelloWorldModule;
 
             
             var rpc = rpcHandler.createRPC('ServiceDiscovery', 'findServices',
